@@ -136,7 +136,7 @@ p{
 
 .ContentHeading{
     
-    width:auto;
+    width:300px;
     padding: 20px 10px 10px;
    
     
@@ -264,7 +264,7 @@ p{
 
 #work-display{
 	width:50%;
-	height:250px;
+	height:300px;
     /* border:2px solid black; */
 
 	display:flex;
@@ -318,7 +318,7 @@ p{
 
 #education-display{
 	width:50%;
-	height:100px;
+	height:150px;
     /* border:2px solid black; */
 
 	display:flex;
@@ -339,10 +339,69 @@ p{
 
 /*  POrtfolio Section */
 
+#portfolio-display{
+	width:50%;
+	height:300px;
+    /* border:2px solid black; */
 
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:center;
 
+	} 
 
+#portfolio-display div{
+	margin-top: 0px;
+	height: 6rem;
+	width: 6rem;
+	border: 1px solid;
 
+}
+
+/* Contact Section */
+
+#contact-display{
+		width:50%;
+		height:auto;
+		/* border:2px solid black; */
+	
+		display:flex;
+		flex-wrap:wrap;
+		flex-direction:row;
+		/* justify-content:space-between; */
+		justify-content:center;
+		background-color: lightblue;
+	
+		} 
+
+#contact-display div{
+
+	height: 220px;
+	width:300px;
+	
+	
+}
+
+#mymessage{
+	font-size:13px;
+	margin-top: 20px;
+	font-family:italic;
+
+}
+.contact{
+	text-align: justify;
+	font-size:15px;
+	margin: 0px;
+	color: blue;
+}
+#client input{
+	text-align: center;
+	width:220px;
+    margin-top: 10px;
+	margin-right:
+}
 
 
 
